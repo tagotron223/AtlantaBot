@@ -1,32 +1,32 @@
 module.exports = {
 	/* The token of your Discord Bot */
-	token: "XXXXXXXXXXX",
+	token: "Nzc3NDY1MDQ1NjYyOTU3NTk4.X7D0vw.1iuAFPhdkmSRSX1-1B4lzx-yfs4",
 	/* For the support server */
 	support: {
-		id: "XXXXXXXXXXX", // The ID of the support server
-		logs: "XXXXXXXXXXX", // And the ID of the logs channel of your server (new servers for example)
+		id: "771676223649873940", // The ID of the support server
+		logs: "777551090224463902", // And the ID of the logs channel of your server (new servers for example)
 	},
 	/* Dashboard configuration */
 	dashboard: {
 		enabled: false, // whether the dashboard is enabled or not
-		secret: "XXXXXXXXXXX", // Your discord client secret
+		secret: "S65St6lcciTGdNTw4j_yUXpVOr7ozPyz", // Your discord client secret
 		baseURL: "https://dashboard.atlanta-bot.fr", // The base URl of the dashboard
-		logs: "XXXXXXXXXXX", // The channel ID of logs
+		logs: "777551090224463902", // The channel ID of logs
 		port: 8080, // Dashboard port
 		expressSessionPassword: "XXXXXXXXXXX", // Express session password (it can be what you want)
 		failureURL: "https://www.atlanta-bot.fr" // url on which users will be redirected if they click the cancel button (discord authentication)
 	},
-	mongoDB: "mongodb://localhost:27017/AtlantaBot", // The URl of the mongodb database
-	prefix: "*", // The default prefix for the bot
+	mongoDB: "mongodb+srv://user:2loma344y@cluster0.j82dj.mongodb.net/osaurus?retryWrites=true&w=majority", // The URl of the mongodb database
+	prefix: "-", // The default prefix for the bot
 	/* For the embeds (embeded messages) */
 	embed: {
 		color: "#0091fc", // The default color for the embeds
-		footer: "Atlanta | Open Source" // And the default footer for the embeds
+		footer: "NEURO | NERO" // And the default footer for the embeds
 	},
 	/* Bot's owner informations */
 	owner: {
-		id: "XXXXXXXXXXX", // The ID of the bot's owner
-		name: "Androz#2091" // And the name of the bot's owner
+		id: "732597393446404106", // The ID of the bot's owner
+		name: "NERO" // And the name of the bot's owner
 	},
 	/* DBL votes webhook (optional) */
 	votes: {
@@ -37,31 +37,31 @@ module.exports = {
 	/* The API keys that are required for certain commands */
 	apiKeys: {
 		// BLAGUE.XYZ: https://blague.xyz/
-		blagueXYZ: "XXXXXXXXXXX",
+		blagueXYZ: "BURDM._wX5KYj_yXrz16S77i.RgktKWmbtsjSLg9nYHakFe.Zk5B2gj0Qt5jQuMw",
 		// FORTNITE TRN: https://fortnitetracker.com/site-api
-		fortniteTRN: "XXXXXXXXXXX",
+		fortniteTRN: "012da248-1115-4419-be6b-8625aaeb9116",
 		// FORTNITE FNBR: https://fnbr.co/api/docs
-		fortniteFNBR: "XXXXXXXXXXX",
+		fortniteFNBR: "012da248-1115-4419-be6b-8625aaeb9116",
 		// DBL: https://discordbots.org/api/docs#mybots
 		dbl: "XXXXXXXXXXX",
 		// AMETHYSTE: https://api.amethyste.moe
-		amethyste: "XXXXXXXXXXX",
+		amethyste: "d62e8ee57e112cc1d038524e8e085530e99e0cfe941faba421af84672f069802ebf93b0ca82f0a3048345de244047e31f32710adb54608d6b8888fbbdea0b4a5",
 		// SENTRY: https://sentry.io (this is not required and not recommended - you can delete the field)
 		sentryDSN: "XXXXXXXXXXX"
 	},
 	/* The others utils links */
 	others: {
-		github: "https://github.com/Androz2091", // Founder's github account
-		donate: "https://patreon.com/Androz2091" // Donate link
+		github: "https://discord.gg/Y8Nyp5u", // Founder's github account
+		donate: "https://discord.gg/Y8Nyp5u" // Donate link
 	},
 	/* The Bot status */
 	status: [
 		{
-			name: "@Atlanta help on {serversCount} servers",
+			name: "NEURO help on {serversCount} servers",
 			type: "LISTENING"
 		},
 		{
-			name: "my website : atlanta-bot.fr",
+			name: "my website :COMMING SOON",
 			type: "PLAYING"
 		}
 	],
